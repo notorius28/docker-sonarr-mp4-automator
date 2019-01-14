@@ -1,4 +1,4 @@
-FROM linuxserver/sonarr
+FROM lsiodev/sonarr-preview
 
 RUN \
   apt-get update && \
