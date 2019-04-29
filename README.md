@@ -1,5 +1,7 @@
-# aront/sonarr
-A docker container based on linuxserver/sonarr with mp4 automation baked in
+# notorius28/docker-sonarr-mp4-automator
+A docker container based on linuxserver/sonarr with mp4 automation baked in.
+
+Thanks to Aront for the original source and implentation.
 
 ## Usage
 ````
