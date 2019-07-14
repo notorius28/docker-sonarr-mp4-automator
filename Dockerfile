@@ -43,6 +43,6 @@ RUN \
   tar -xJf /tmp/ffmpeg.tar.xz -C /usr/local/bin/ffmpeg --strip-components 1 && \
   chgrp -R users /usr/local/bin/ffmpeg && \
   chmod g+x /usr/local/bin/ffmpeg/ffmpeg && \
-  chmod g+x /usr/local/bin/ffmpeg/ffprobe &&
+  chmod g+x /usr/local/bin/ffmpeg/ffprobe
 
 VOLUME config_mp4_automator
