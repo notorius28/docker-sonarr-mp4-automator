@@ -27,7 +27,7 @@ RUN \
   pip install python-dateutil && \
   pip install qtfaststart && \
   pip install tmdbsimple && \
-  git clone --branch notvdb git://github.com/mdhiggins/sickbeard_mp4_automator.git /sickbeard_mp4_automator/ && \
+  git clone --branch master git://github.com/mdhiggins/sickbeard_mp4_automator.git /sickbeard_mp4_automator/ && \
   touch /sickbeard_mp4_automator/info.log && \
   chmod a+rwx -R /sickbeard_mp4_automator && \
   ln -s /downloads /data && \
