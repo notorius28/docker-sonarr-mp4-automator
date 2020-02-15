@@ -9,13 +9,13 @@ docker create \
     --name sonarr \
     --restart unless-stopped \
     -p 8989:8989 \
-    -e PUID=1001 -e PGID=1001 \
-    -e TZ="America/Chicago"  \
+    -e PUID=1000 -e PGID=1000 \
+    -e TZ="Europe/Madrid"  \
     -v <path to data>:/config \
     -v <path to data>/mp4_automator:/config_mp4_automator \
     -v <path to data>:/movies \
     -v <path to data>:/downloads \
-    aront/sonarr
+    notorius28/sonarr3mp4converter
     
 mkdir <path to data>/mp4_automator && \
 wget https://raw.githubusercontent.com/mdhiggins/sickbeard_mp4_automator/master/autoProcess.ini.sample -O <path to data>/mp4_automator/autoProcess.ini

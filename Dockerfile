@@ -21,12 +21,11 @@ RUN \
   pip install requests[security] && \
   pip install requests-cache && \
   pip install babelfish && \
-  pip install 'guessit<2' && \
-  pip install 'subliminal<2' && \
-  pip install stevedore==1.19.1 && \
-  pip install python-dateutil && \
+  pip install guessit && \
+  pip install subliminal && \
   pip install qtfaststart && \
   pip install tmdbsimple && \
+  pip install mutagen && \
   git clone --branch master git://github.com/mdhiggins/sickbeard_mp4_automator.git /sickbeard_mp4_automator/ && \
   touch /sickbeard_mp4_automator/info.log && \
   chmod a+rwx -R /sickbeard_mp4_automator && \
